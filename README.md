@@ -10,12 +10,18 @@ BridgeView AI is an end-to-end agentic application designed for maritime softwar
   * **Spec Analyzer Agent**: Evaluates the maritime spec, analyzes telemetry parameters, checks active watch cycles, and details the dashboard widget hierarchy in JSON format.
   * **Component Builder Agent**: Translates the proposed tree into self-contained React TypeScript code with interactive hooks, responsive grids, HSL gradients, and embedded SVG icons.
 * **Agentic Memory Loop**: Short-term session memory preserves critical attributes (e.g. active Vessel Name, UI Theme color accent, and prior iteration logs). Engineers can iterate on the design using an interactive chat prompt.
-* **Custom Agent Tools**:
-  * `validateCodeSyntax`: Assures brackets, parenthesis, tag balances, and import/export rules are nominal before compile execution.
-  * `simulatePreview`: Confirms hooks namespace compliance to prevent frame crashes.
 * **Live Dynamic Preview**: Run-time transpiler using client-side Babel Standalone compiles the generated code inside a sandboxed iframe with support for fully stateful widgets (click actions, active tabs, SVG charts).
 * **Multiple API Key Storage Options**: Configurable via a local `.env` file or directly inside the console UI (`localStorage`). Supports a fallback **Demo Mode** with simulated logs.
 * **Premium Rugged Aesthetic**: Styled with Outfit and Inter fonts, deep navy/slate glassmorphism panels, color-coded terminal outputs, and glow highlights.
+
+---
+
+## 🔮 Future Enhancements (Phase 2)
+
+As part of the phase 1 stub implementation, the console logs simulate tool executions to demonstrate the intended pipeline architecture. In future phases, these simulated stubs will be replaced with real executable agent tools:
+* **Custom Agent Tools (Stubs)**:
+  * `validateCodeSyntax`: Will actively parse AST to assure brackets, parenthesis, tag balances, and import/export rules are nominal before compile execution.
+  * `simulatePreview`: Will actively execute hook namespace compliance checks to prevent frame crashes.
 
 ---
 
