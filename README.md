@@ -1,3 +1,4 @@
+## Jenifer Deli - Frontend Dev - Sandbox D20
 # BridgeView AI - Maritime Spec-to-Code Engineering Console
 
 BridgeView AI is an end-to-end agentic application designed for maritime software and systems engineers. It ingests vessel software specs or product requirements documents (PRDs)—such as vessel telemetry dashboards, crew welfare portals, or reefer cargo trackers—and uses a collaborative multi-agent pipeline to plan a component hierarchy, compile production-ready React+Tailwind component code, and render an interactive, live browser preview.
